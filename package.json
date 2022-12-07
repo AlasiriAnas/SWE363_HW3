@@ -1,0 +1,23 @@
+{
+  "name": "hw2",
+  "version": "1.0.0",
+  "description": "This repo is for HW3 for course SWE363, in this Hw I will add the backend and database to the frontend part that I've created in HW1 & Hw2.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlasiriAnas/HW3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlasiriAnas/HW3/issues"
+  },
+  "homepage": "https://github.com/AlasiriAnas/HW3#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
