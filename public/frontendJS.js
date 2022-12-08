@@ -8,6 +8,7 @@ const showComments = (recipe_id) => {
 const seeComments = (recipe_id) => {
 
     //to handle when the user clicks on the “see comments” button. It unhides the comments section and call showComments.
+    
 };
 
 

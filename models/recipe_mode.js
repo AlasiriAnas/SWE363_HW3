@@ -1,3 +1,12 @@
+const sqlite3 = require('sqlite3')
+const sqlite = require('sqlite')
+const getDbConnection = async () => {
+    return await sqlite.open({
+        filename: 'recipes_store.db3',
+        driver: sqlite3.Database
+    })
+}
+
 const  getAllRecipes = () =>{
 
     return //array of recipes from the reccipes table 
